@@ -1,12 +1,12 @@
 // pages/index.js
 import Header from '@/components/header';
-
+import Footer from '@/components/footer';
 export default function HomePage() {
   return (
     <>
       <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center">
         {/* Header Section */}
-      <Header/>
+        <Header />
 
         {/* Main Section */}
         <main className="flex-grow flex flex-col justify-center items-center text-center px-4">
@@ -22,12 +22,9 @@ export default function HomePage() {
         </main>
 
         {/* Footer Section */}
-        <footer className="w-full bg-gray-800 text-white py-4">
-          <div className="max-w-6xl mx-auto px-4 text-center">
-            <p>&copy; {new Date().getFullYear()} NextFolio. All rights reserved.</p>
-          </div>
-        </footer>
+
       </div>
+      <Footer />
     </>
   );
 }
