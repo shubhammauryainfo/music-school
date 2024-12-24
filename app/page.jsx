@@ -4,9 +4,10 @@ import Footer from '@/components/footer';
 export default function HomePage() {
   return (
     <>
+      <Header />
       <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center">
         {/* Header Section */}
-        <Header />
+
 
         {/* Main Section */}
         <main className="flex-grow flex flex-col justify-center items-center text-center px-4">
