@@ -60,7 +60,7 @@ const Header = () => {
               className="flex items-center gap-x-1 text-lg font-semibold text-gray-900"
               aria-expanded={isDropdownOpen}
             >
-              Product
+              Home
               <svg
                 className="h-5 w-5 flex-none text-gray-400"
                 viewBox="0 0 20 20"
@@ -114,13 +114,13 @@ const Header = () => {
             )}
           </div>
           <a href="#" className="text-lg font-semibold text-gray-900">
-            Features
+            About Us
           </a>
           <a href="#" className="text-lg font-semibold text-gray-900">
-            Marketplace
+            Teachers
           </a>
           <a href="#" className="text-lg font-semibold text-gray-900">
-            Company
+            Contact Us
           </a>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
