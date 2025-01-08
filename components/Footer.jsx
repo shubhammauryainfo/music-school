@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="container mx-auto px-4">
                 {/* Top Section */}
                 <div className="flex flex-wrap justify-between items-center border-b border-gray-700 pb-4">
-                    <div>
+                    <div className="p-4 text-center">
                         <h2 className="text-xl font-bold">K.L. English School</h2>
                         <p className="text-sm mt-1">
                             Providing quality education for a brighter future.
