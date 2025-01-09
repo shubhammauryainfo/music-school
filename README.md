@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Music School Website
 
-## Getting Started
+This is a simple website for a music school built using Next.js focused on User Interface.
 
-First, run the development server:
+##Screenshots
+![Screenshot from 2024-03-01 12-24-07](https://github.com/mahapara24/music-school-nextjs/assets/92634034/0d495f24-0981-49d1-a8fd-69af73f5d738)
+![Screenshot from 2024-03-01 12-24-30](https://github.com/mahapara24/music-school-nextjs/assets/92634034/b89212a1-0f9c-4df5-805f-84cb477b0e9d)
+![Screenshot from 2024-03-01 12-24-19](https://github.com/mahapara24/music-school-nextjs/assets/92634034/7eb6ac0d-8a82-4d07-8481-c7a06c156f65)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Display information about the music school
+- Showcase courses offered
+- Provide contact information
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Open http://localhost:3000 to view the website in your browser.
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js
+- React
+- CSS
+- Aceternity UI library
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Aceternity UI Library
+
+Aceternity UI is a lightweight and responsive UI library designed for building modern web applications. It provides a set of customizable components and styles that enhance the user interface and user experience of web applications.
+
+To use Aceternity UI components in this project, simply import them into your React components and start building beautiful interfaces effortlessly.
+
+For more information and documentation on Aceternity UI, visit [Aceternity UI GitHub Repository](https://github.com/example/aceternity-ui).
